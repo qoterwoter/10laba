@@ -1,0 +1,12 @@
+.MapFrame {
+    height: 700px;
+}
+
+.MapFrame-Frame {
+}
+
+@media (max-width: 840px) {
+    .MapFrame {
+        height: 500px;
+    }
+}
