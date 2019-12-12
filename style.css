@@ -3,6 +3,11 @@ html {
     color: rgb(138, 138, 138)
 }
 
+.whiteTheme {
+    background-color: white;
+    color: black;
+}
+
 button {
     background-color: rgb(104, 104, 104);
     border: black 1px solid;
@@ -25,4 +30,12 @@ button {
     background-color: rgb(165, 165, 165);
     color: red;
     border-radius: 10px;
+}
+
+.wrapped {
+    border: 1px solid rgb(48, 48, 48);
+    background-color: rgb(165, 165, 165);
+    color: rgb(46, 46, 46);
+    border-radius: 10px;
+    padding: 10px;
 }

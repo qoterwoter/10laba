@@ -12,7 +12,16 @@
 </head>
 
 <body>
+    <div class="theme-box">
+        <h2>Dark | Light theme</h2>
+        <div class="toggle">
+            <input type="checkbox" name="theme" id="switch"><label for='switch'>Toggle</label>
+        </div>
+    </div>
     <nav>
+        <button class='hideOls'>Показать\Cкрыть все подпункты</button>
+        <button class='wrapLis'>Обернуть основные пункты</button>
+        <button class='htmlLorem'>Изменить текст панграмы</button>
         <ul>
             <li class='first-li'>Первый пункт
                 <ol>
@@ -45,18 +54,29 @@
 
     <h2>Применение toggle-fade</h2>
     <section class="fade">
-        <p>Lorem, ipsum dolor.</p>
-        <p>Maxime, nostrum minima.</p>
-        <p>Voluptatum, eum nihil!</p>
+        <p class='p-fade'>Lorem, ipsum dolor.</p>
+        <p class='p-fade'>Maxime, nostrum minima.</p>
+        <p class='p-fade'>Voluptatum, eum nihil!</p>
     </section>
     <button class='toggle-fade'>Click me double times</button>
     <section class='text-change'>
         <article>
-            <h2 class='addtext'>Добавление текста при нажатии на заголовок</h2>
+            <h2 class='addtext'>Добавление текста</h2>
+            <button class='addBefore'>Добавить текст в начало</button>
+            <button class="addAfter">Добавить текст в конец</button>
         </article>
+        <br>
+        <br>
+        <br>
     </section>
     <section>
         <button class='pchange'>Изменить цвет текста всех параграфов</button>
+    </section>
+    <section>
+        <button class='pfilter'>Изменение всех параграфов с классом p-fade</button>
+    </section>
+    <section>
+        <button class='attribute'>Вывести класс первого элемента в списке</button>
     </section>
 </body>
 <script>
